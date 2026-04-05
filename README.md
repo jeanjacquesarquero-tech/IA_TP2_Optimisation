@@ -36,3 +36,14 @@ Pour tester l'efficacité de l'algorithme, j'ai implémenté le calcul du score 
    - `python partie1_pl.py`
    - `python partie2_glouton.py`
    - `python partie3_recursion.py`
+
+# Graphiques d’analyse
+
+# 1. Comparaison des algorithmes
+On observe que l'approche PuLP atteint l'optimum de 524 points. La stratégie par ratio (516 points) est très performante, contrairement au choix par score pur.
+
+# 2. Croissance du nombre d’appels récursifs
+L'échelle logarithmique montre l'explosion du nombre d'appels pour `fib_naif`. La version `fib_memo` reste linéaire, justifiant l'efficacité de la programmation dynamique.
+
+# 3. Répartition du budget et du poids par équipe
+Ce graphique confirme le respect des contraintes (250 kg et 8500 $ au total). Les ressources sont équilibrées entre l'Équipe A y l'Équipe B.
